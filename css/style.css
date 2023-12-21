@@ -1,0 +1,93 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+:root {
+    --text-gray: #272727;
+    --text-black: #202020;
+    --btn-yellow: #FFCA00;
+}
+
+/* GENERAL */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.none {
+    display: none;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans 3', sans-serif; */
+
+/* HEADER */
+
+.header {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 793px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+/* MENU */
+
+.menu__list {
+    display: flex;
+    gap: 50px;
+}
+
+.menu__list a {
+    text-transform: uppercase;
+    color: #FFF;
+    opacity: .5;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.menu__list a:hover {
+    opacity: 1;
+}
+
+.login {
+    margin-right: 44px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.login:hover {
+    color: #250F8A;
+}
+
+.sign-up {
+    text-transform: uppercase;
+    color: #250F8A;
+    padding: 8px 43px;
+    background-color: #FFF;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.sign-up:hover {
+    background-color: var(--btn-yellow);
+}
