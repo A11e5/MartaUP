@@ -98,8 +98,7 @@ font-family: 'Source Sans 3', sans-serif; */
 .header-slider {
     padding-top: 111px;
 }
-.header-slider__item {
-}
+
 .header-slider__item-content {
     display: flex;
     justify-content: space-between;
@@ -157,4 +156,54 @@ font-family: 'Source Sans 3', sans-serif; */
 .header-dots .slick-active button {
     opacity: 1;
     width: 15px;
+}
+
+/* SECTION SPEC */
+
+.spec {
+    padding: 55px 0 93px;
+    background-image: url('../img/spec-bg.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: var(--text-black);
+    text-align: center;
+}
+
+.spec_title {
+    margin-bottom: 96px;
+}
+
+.title {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.spec__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.spec__item {
+}
+
+.spec__item-img {
+    margin-bottom: 23px;
+    min-height: 159px;
+}
+
+.spec__item-title {
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.spec__item-text {
+    padding: 0 10px;
+    color: var(--text-gray);
+    opacity: .7;
 }
